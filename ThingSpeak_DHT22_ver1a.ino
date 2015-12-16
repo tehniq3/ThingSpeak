@@ -2,6 +2,7 @@
 
 https://github.com/iobridge/ThingSpeak-Arduino-Examples/edit/master/Ethernet/Arduino_to_ThingSpeak.ino
 http://community.thingspeak.com/documentation/api/
+http://www.instructables.com/id/Measure-Temperature-with-Arduino-Ethernet-DS18B20-/?ALLSTEPS
 
  Arduino --> ThingSpeak Channel via Ethernet
  
