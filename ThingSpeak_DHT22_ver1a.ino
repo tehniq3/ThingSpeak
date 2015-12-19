@@ -24,7 +24,7 @@ http://www.instructables.com/id/Measure-Temperature-with-Arduino-Ethernet-DS18B2
  Arduino Requirements:
  
    * Arduino with Ethernet Shield or Arduino Ethernet
-   * Arduino 1.0+ IDE
+   * work with Arduino 1.6.+ IDE
    
   Network Requirements:
 
@@ -36,6 +36,8 @@ http://www.instructables.com/id/Measure-Temperature-with-Arduino-Ethernet-DS18B2
  
  Additional Credits:
  Example sketches from Arduino team, Ethernet by Adrian McEwen
+ 
+ Changed sketch by niq_ro (Nicu Florica) - http://www.tehnic.go.ro
  
 */
 
