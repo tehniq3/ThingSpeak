@@ -104,7 +104,7 @@ te2 = te0 - te1*10;          // value after point
 has = dht.readHumidity();
 has0 = 10*has;
 has1 = has0/10;                // integer value
-has2 = has0 - has*10;          // value after point
+has2 = has0 - has1*10;          // value after point
 
 //String analogValue0 = String(te, DEC);
 //String analogValue1 = String(has, DEC);
