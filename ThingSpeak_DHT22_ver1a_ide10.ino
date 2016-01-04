@@ -100,6 +100,7 @@ te = dht.readTemperature();  // read temperature
 te0 = 10*te;                 // multiplied with 10
 te1 = te0/10;                // integer value
 te2 = te0 - te1*10;          // value after point
+if (te2<0) te2=-te2;         // if temperature is negative
 
 has = dht.readHumidity();
 has0 = 10*has;
