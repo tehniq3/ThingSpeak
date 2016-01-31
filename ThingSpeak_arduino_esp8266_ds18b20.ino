@@ -109,7 +109,10 @@ Serial.println(strTemp);
   }
     
   // thingspeak needs 15 sec delay between updates
-  delay(16000);  
+//  delay(16000);  // 16 seconnds interval (between send datas)
+//    delay(300000);  // 5 minutes (300 seconnds) interval (between send datas)
+    delay(900000);  // 15 minutes (900 seconnds) interval (between send datas)
+  
 }
 
 boolean connectWiFi()
