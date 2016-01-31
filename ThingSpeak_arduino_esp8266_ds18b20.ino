@@ -7,7 +7,7 @@
 // Website: electronut.in
 // + http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?ALLSTEPS
 // = this version is adapted by niq_ro (Nicu FLORICA)
-// from http://arduinotehniq.com ( hattp://www.tehnic.go.ro & http://nicuflorica.blogspot.ro )
+// from http://arduinotehniq.com ( http://www.tehnic.go.ro & http://nicuflorica.blogspot.ro )
 
 #include <SoftwareSerial.h>
 #include <OneWire.h>
