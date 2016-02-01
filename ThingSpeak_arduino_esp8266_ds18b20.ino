@@ -32,7 +32,8 @@ String apiKey = "Write_API_Key";
 
 // connect 10 to TX of Serial USB
 // connect 11 to RX of serial USB
-SoftwareSerial ser(10, 11); // RX, TX
+//SoftwareSerial ser(10, 11); // RX, TX
+SoftwareSerial ser(11, 10); // RX, TX
 
 // this runs once
 void setup() {                
