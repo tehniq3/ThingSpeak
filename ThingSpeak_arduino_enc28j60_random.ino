@@ -12,6 +12,7 @@
 
 // niq_ro change the sketch for send random value as temperature and humidity, then I can uncoment some lines and use DHT11,DHT22 (AM2302) sensor
 // 2016-02-04 nicu.florica@gmail.com - http://www.tehnic.go.ro
+// thx to Cristi for sketch with BMP085 ;)
 
 #include <EtherCard.h>
 
