@@ -20,7 +20,7 @@
 
 // change these settings to match your own setup
 //#define FEED "000"
-#define APIKEY "KZGRIC21SC7TZ2IN" // put your key here
+#define APIKEY "write_API_key" // put your key here
 #define ethCSpin 8 // put your CS/SS pin here.
 
 // ethernet interface mac address, must be unique on the LAN
