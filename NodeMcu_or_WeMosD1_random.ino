@@ -1,5 +1,5 @@
 // www.arduinesp.com 
-//
+// can be used NodeMcu or WeMos D1 - http://www.wemos.cc/wiki/doku.php?id=en%3Ad1
 // Plot DTH11 data on thingspeak.com using an ESP8266 
 // April 11 2015
 // Author: Jeroen Beemster
