@@ -17,7 +17,7 @@ const char* password = "password";
  
 const char* server = "api.thingspeak.com";
 #define DHTPIN 5 // what pin we're connected to
-// note 5 is GPIO1 at NodeMCU (or D1) - http://www.14core.com/wp-content/uploads/2015/06/Node-MCU-Pin-Out-Diagram1.png
+// note GPIO5 is D1 at NodeMCU - http://www.14core.com/wp-content/uploads/2015/06/Node-MCU-Pin-Out-Diagram1.png
 //#define DHTTYPE DHT11   // DHT 11 
 #define DHTTYPE DHT22   // DHT 22 
 DHT dht(DHTPIN, DHTTYPE,11);
