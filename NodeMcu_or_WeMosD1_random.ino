@@ -19,7 +19,8 @@ const char* server = "api.thingspeak.com";
 // uncomment if use real sensor
 /*
 #define DHTPIN 5 // what pin we're connected to
-// note 5 is GPIO1 at NodeMCU (or D1) - http://www.14core.com/wp-content/uploads/2015/06/Node-MCU-Pin-Out-Diagram1.png
+// note GPIO5 is D11 at NodeMCU (or D1) - http://www.14core.com/wp-content/uploads/2015/06/Node-MCU-Pin-Out-Diagram1.png
+// note GPIO5 is D15 http://www.wemos.cc/wiki/doku.php?id=en:d1
 //#define DHTTYPE DHT11   // DHT 11 
 #define DHTTYPE DHT22   // DHT 22 
 DHT dht(DHTPIN, DHTTYPE,11);
