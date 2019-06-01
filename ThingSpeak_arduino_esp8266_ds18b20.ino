@@ -9,7 +9,7 @@
 // = this version is adapted by niq_ro (Nicu FLORICA)
 // from http://arduinotehniq.com ( http://www.tehnic.go.ro & http://nicuflorica.blogspot.ro )
 
-#include <SoftwareSerial.h>
+//#include <SoftwareSerial.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #define ONE_WIRE_BUS 8
