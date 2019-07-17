@@ -2,7 +2,7 @@
 // base info: http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?ALLSTEPS
 //  this version is adapted by niq_ro (Nicu FLORICA)
 // from http://arduinotehniq.com ( http://www.tehnic.go.ro & http://nicuflorica.blogspot.ro )
-// https://github.com/tehniq3/ThingSpeak/blob/master/ThingSpeak_arduino_esp8266_ds18b20.ino
+//https://github.com/tehniq3/ThingSpeak
 
 #include <SoftwareSerial.h>
 #include <OneWire.h>
