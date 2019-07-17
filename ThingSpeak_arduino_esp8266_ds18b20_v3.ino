@@ -1,12 +1,6 @@
-// esp8266_test.ino 
-// http://electronut.in/an-iot-project-with-esp8266/
-// Plot DS18B20 data on thingspeak.com using an Arduino and an ESP8266 WiFi 
-// module.
-//
-// Author: Mahesh Venkitachalam
-// Website: electronut.in
-// + http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?ALLSTEPS
-// = this version is adapted by niq_ro (Nicu FLORICA)
+
+// base info: http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?ALLSTEPS
+//  this version is adapted by niq_ro (Nicu FLORICA)
 // from http://arduinotehniq.com ( http://www.tehnic.go.ro & http://nicuflorica.blogspot.ro )
 // https://github.com/tehniq3/ThingSpeak/blob/master/ThingSpeak_arduino_esp8266_ds18b20.ino
 
@@ -126,6 +120,7 @@ if (contorizare > 20)
 
 boolean connectWiFi()
 {
+  
    // reset ESP8266
    Serial.println("AT+RST");
    ser.println("AT+RST");
@@ -142,8 +137,11 @@ boolean connectWiFi()
   delay(700); 
   }
 
-  Serial.println("AT+CWMODE=1");//WiFi STA mode - if '3' it is both client and AP
+ // Serial.println("AT+CWMODE=1");//WiFi STA mode - if '3' it is both client and AP
+  String cmd0="AT+CWMODE=1"; // Join accespoint
+  sendDebug(cmd0);
   delay(2000);
+  
   //Connect to Router with AT+CWJAP="SSID","Password";
   // Check if connected with AT+CWJAP?
   String cmd="AT+CWJAP=\""; // Join accespoint
